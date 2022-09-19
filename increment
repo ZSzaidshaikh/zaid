@@ -1,0 +1,34 @@
+// Online C compiler to run C program online
+//name:shaikh zaid
+//date:19/09/2022
+//program:increment
+#include <stdio.h>
+
+int main() {
+    int a;
+    printf("enter your value ");
+    scanf("%d",&a);
+    a++;
+    printf ("your value of increment is %d \n",a);
+printf("\n----------------------\n");
+
+//program:decrement
+int y;
+printf("enter your value of decrement ");
+scanf("%d",&y);
+y--;
+printf("your value of decrement is %d \n",y);
+printf("\n-----------------------\n");
+
+//program:preincrement
+int z;
+printf("enter you value of preincrment ");
+scanf("%d",&z);
+--z;
+printf("your value of preincrement %d \n",z);
+
+
+
+
+    return 0;
+}
