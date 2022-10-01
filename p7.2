@@ -1,0 +1,57 @@
+// Online C compiler to run C program online//
+/*name:shaikh zaid
+date:01/10/2022
+program:printing grade to marks*/
+
+#include <stdio.h>
+
+void main()  
+{
+    int marks;
+    printf("enter marks between 0-100:");
+    scanf("%d",&marks);
+    marks=marks/10;
+    
+        switch(marks)
+        {
+         case 10:
+         printf("A+ grade");
+         break;
+         
+         case 9:
+         printf("A grade");
+         break;
+         
+         case 8:
+         printf("B grade");
+         break;
+         
+         case 7:
+         printf("B grade");
+         break;
+         
+        case 6:
+         printf("C grade");
+         break;
+         
+         case 5:
+         printf("C grade");
+         break;
+         
+         case 4:
+         printf("D grade");
+         break;
+         
+        case 3:
+         printf("fail");
+         break;
+         
+         default:
+         printf("that's why you are fail");
+         
+        }
+    
+    
+    
+    return 0;
+}
