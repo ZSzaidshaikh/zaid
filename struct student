@@ -1,0 +1,28 @@
+#include <stdio.h>
+struct student
+{
+    char n[20];
+    char c[20];
+    int r;
+}s[3];
+void main()
+{
+    int i;
+    for(i=0;i<3;i++)
+    {
+        printf("enter name : ");
+        scanf("%s",&s[i].n);
+         printf("enter roll no: ");
+        scanf("%d",&s[i].r);
+         printf("enter  class : ");
+        scanf("%s",&s[i].c);
+    }
+
+    printf("\n...........................\n\n");
+        for(i=0;i<3;i++)
+    {
+        printf(" Name:%s\n Roll no :%d\n class:%s \n",s[i].n,s[i].r,s[i].c);
+
+
+    }
+}
